@@ -1,0 +1,14 @@
+.searchProjectCombo {
+    display: flex;
+    align-items: center;
+  }
+  .searchProjectCombo .combo-box {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  .searchProjectCombo select {
+    margin-right: 10px;
+    width: 200px;
+    text-align: center;
+  }
