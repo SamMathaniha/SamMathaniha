@@ -1,0 +1,112 @@
+.AboutMeBoxWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Make sure the wrapper takes up the full height of the viewport */
+  }
+  
+/* For the first box */
+.AboutMeBox {
+  width: 600px;
+  height: 550px;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Example gradient colors */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: white; /* Ensure text is readable on the gradient background */
+  font-weight: bold;
+}
+
+.AboutMeBox img {
+  max-width: 50%;
+  max-height:50%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left:24%;
+}
+
+.info {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .AboutMeBox {
+    width: 90%; /* Make the box width 90% of the viewport width */
+    height: auto; /* Allow the height to adjust based on content */
+    padding: 10px; /* Reduce padding for smaller screens */
+    font-size: 16px; /* Reduce font size for smaller screens */
+  }
+
+  .AboutMeBox img {
+    max-width: 100%; /* Adjust image size for smaller screens */
+    max-height: 100%; /* Adjust image size for smaller screens */
+    margin-left: 0; /* Center align the image on smaller screens */
+  }
+}
+
+
+
+
+
+
+
+  .AboutMeBoxWrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh; /* Make sure the wrapper takes up the full height of the viewport */
+  }
+  
+/* For the second box */
+.AboutMeBox2 {
+  width: 600px;
+  height: 650px;
+  background: linear-gradient(45deg, #4caf50, #2196f3); /* Example gradient colors */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif; /* Example font family */
+  font-weight: bold; /* Make font bold */
+  color: white; /* Ensure text is readable on the gradient background */
+}
+
+/* Style the links */
+.AboutMeBox2 a {
+  color: blue; /* Set link color to blue */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Style visited links */
+.AboutMeBox2 a:visited {
+  color: blue; /* Set visited link color to blue */
+}
+
+/* Style links on hover */
+.AboutMeBox2 a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .AboutMeBox2 {
+    width: 90%; /* Make the box width 90% of the viewport width */
+    height: auto; /* Allow the height to adjust based on content */
+    padding: 10px; /* Reduce padding for smaller screens */
+    font-size: 16px; /* Reduce font size for smaller screens */
+  }
+}
+

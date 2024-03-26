@@ -1,0 +1,42 @@
+.skills-rating {
+    margin-top: 40px;
+    width: 100%;
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto; /* Center the container horizontally */
+}
+
+@media only screen and (min-width:992px) {
+    .skills-rating {
+        margin-top: 0;
+        width: 50%;
+    }
+}
+
+.skills-rating p {
+    margin-bottom: 5px;
+}
+
+.outer-meter {
+    min-width: 100%;
+    min-height: 20px;
+    max-height: 20px;
+    background-color: #383838;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-right: 4px;
+    margin-bottom: 15px;
+}
+
+.inner-meter {
+    margin: 2px 2px 0 2px;
+    display: inline-block;
+    width: 1%;
+    max-width: 100%;
+    min-height: 16px;
+    background-color: #DED1C1;
+    border-radius: 8px;
+}
+
+h5{
+    color: blue;
+}
