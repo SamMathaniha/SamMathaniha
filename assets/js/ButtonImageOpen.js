@@ -1,3 +1,13 @@
+  // JavaScript for Degree results
+  document.getElementById("DegreeImageButton").addEventListener("click", function() {
+    var DegreeImage = document.getElementById("DegreeImage");
+    if (DegreeImage.style.display === "none" || DegreeImage.style.display === "") {
+      DegreeImage.style.display = "block"; // Show the image
+    } else {
+      DegreeImage.style.display = "none"; // Hide the image if already visible
+    }
+  });
+ 
  // JavaScript for HND results
  document.getElementById("hndViewResultsButton").addEventListener("click", function() {
     var hndResultsImage = document.getElementById("hndResultsImage");
